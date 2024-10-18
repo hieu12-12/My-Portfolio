@@ -16,7 +16,7 @@ body{
 #header{
   width: 100%;
   height: 100vh;
-  background-image: url(images/AvtI9PO.jpg);
+  background-image: url(images/grey-wall.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -52,7 +52,7 @@ nav ul li a::after{
   content:'';
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #0cc0df;
   position:absolute;
   left:0;
   bottom: -6px;
@@ -74,7 +74,7 @@ nav ul li a:hover::after{
 
 }
 .header-text h1 span{
-  color: #ff004f;
+  color: #00d9ff;
 
 }
 /*---------About Me ---------*/
@@ -123,7 +123,7 @@ nav ul li a:hover::after{
   content:'';
   width: 0;
   height: 3px;
-  background: #ff004f;
+  background: #0cc0df;
   position: absolute;
   left: 0;
   bottom:-8px;
@@ -140,7 +140,7 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li span{
-  color:#b54769;
+  color:#00d9ff;
   font-size: 14px;
 }
 .tab-contents{
@@ -186,7 +186,7 @@ nav ul li a:hover::after{
   display: inline-block;
 }
 .services-list div:hover{
-  background: #ff004f;
+  background: #4d9ba8;
   transform: translateY(-10px) ;
 }
 /*----------Portfolio--------*/
@@ -213,7 +213,7 @@ nav ul li a:hover::after{
 .layer{
   width: 100%;
   height: 0;
-  background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
+  background: linear-gradient(rgba(0,0,0,0.6), #0cc0df);
   border-radius: 10px;
   position: absolute;
   left: 0;
@@ -234,7 +234,7 @@ nav ul li a:hover::after{
 }
 .layer a{
   margin-top: 20px;
-  color: #ff004f;
+  color: #0cc0df;
   text-decoration: none;
   font-size: 18px;
   line-height: 60px;
@@ -254,7 +254,7 @@ nav ul li a:hover::after{
   display:block;
   margin: 50px auto;
   width: fit-content;
-  border: 1px solid #ff004f;
+  border: 1px solid #0cc0df;
   padding: 14px;
   border-radius: 6px;
   text-decoration: none;
@@ -262,7 +262,7 @@ nav ul li a:hover::after{
   transition: background 0.5;
 }
 .btn:hover{
-  background: #ff004f;
+  background: #ababab;
 }
 /*-----------contact----------*/
 .contact-left{
@@ -275,7 +275,7 @@ nav ul li a:hover::after{
   margin-top:  30px; 
 }
 .contact-left p i{
-  color: #ff004f;
+  color: #0cc0df;
   margin-right: 15px;
   font-size: 25px;
 }
@@ -291,12 +291,12 @@ nav ul li a:hover::after{
   transition: transform 0.5s;
 }
 .social-icons a:hover{
-  color: #ff004f;
+  color: #0cc0df;
   transform: translateY(-10px);
 }
 .btn.btn2{
   display:inline-block ;
-  background: #ff004f;
+  background: #0cc0df;
 }
 .contact-right form{
   width: 100%;
@@ -327,7 +327,7 @@ cursor: pointer;
   margin-top: 20px;
 }
 .copyright i{
-  color: #ff004f;
+  color: #ff0037;
 }
 /*---------------css for small screens-----------*/
 nav .fas{
@@ -335,7 +335,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
   #header{
-    background-image: url(images/AvtI9PO.jpg);
+    background-image: url(images/grey-wall.jpg);
   }
   .header-text{
     margin-top: 100%;
@@ -349,7 +349,7 @@ nav .fas{
     font-size: 25px;
   }
   nav ul{
-    background: #ff004f;
+    background: #0cc0df;
     position: fixed;
     top: 0;
     right: -200px;
